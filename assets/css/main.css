@@ -832,14 +832,18 @@ iframe {
   width: 100%;
 }
 
-h4 {
-  /* color: #ec5e47; */
-  color: rgb(107, 147, 207);
+h1 {
+  text-shadow: 2px 2px 4px #6b93cf !important;
 }
 
 h3,
 strong {
   color: #f4b148;
+}
+
+h4 {
+  /* color: #ec5e47; */
+  /* color: #6b93cf; */
 }
 
 article {
