@@ -821,8 +821,8 @@ input[type='radio'] + label:before {
 /* SECO colors */
 
 .logos {
-  /* height: 100%; */
-  /* margin: 0 2% 0 2%; */
+  width: 90%;
+  /* margin: 0 1% 0 1%; */
 }
 
 .map {
