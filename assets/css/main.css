@@ -779,7 +779,7 @@ input[type='radio'] + label:before {
 
 .image.left,
 .image.right {
-  max-width: 70%;
+  max-width: 50%;
 }
 
 .image.left img,
@@ -819,6 +819,13 @@ input[type='radio'] + label:before {
 }
 
 /* SECO colors */
+
+.map {
+  width: 100%;
+}
+iframe {
+  width: 100%;
+}
 
 hr {
   color: #ec5e47;
@@ -1026,7 +1033,7 @@ ul.icons {
 
 ul.icons li {
   display: inline-block;
-  padding: 0 0.75em 0 0;
+  padding: 0 0.5em 0 0;
 }
 
 ul.icons li:last-child {
@@ -1037,18 +1044,18 @@ ul.icons li a {
   border-radius: 100%;
   box-shadow: inset 0 0 0 1px #ffffff;
   display: inline-block;
-  height: 2.25rem;
-  line-height: 2.25rem;
+  height: 3.25rem;
+  line-height: 3.25rem;
   text-align: center;
-  width: 2.25rem;
+  width: 3.25rem;
 }
 
 ul.icons li a:hover {
-  background-color: rgba(255, 255, 255, 0.075);
+  background-color: rgba(244, 177, 72, 0.8);
 }
 
 ul.icons li a:active {
-  background-color: rgba(255, 255, 255, 0.175);
+  background-color: rgba(244, 177, 72, 0.8);
 }
 
 /* Table */
