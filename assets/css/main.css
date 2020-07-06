@@ -820,6 +820,11 @@ input[type='radio'] + label:before {
 
 /* SECO colors */
 
+.logos {
+  /* height: 100%; */
+  /* margin: 0 2% 0 2%; */
+}
+
 .map {
   width: 100%;
 }
@@ -827,8 +832,9 @@ iframe {
   width: 100%;
 }
 
-hr {
-  color: #ec5e47;
+h4 {
+  /* color: #ec5e47; */
+  color: rgb(107, 147, 207);
 }
 
 h3,
@@ -1274,8 +1280,8 @@ button {
   transition-delay: 0.75s;
   background-image: linear-gradient(
       to top,
-      rgba(19, 21, 25, 0.5),
-      rgba(19, 21, 25, 0.5)
+      rgba(19, 21, 25, 0.4),
+      rgba(19, 21, 25, 0.4)
     ),
     url('../../images/overlay.png');
   background-size: auto, 256px 256px;
@@ -1315,7 +1321,7 @@ body.is-article-visible #bg:after {
 }
 
 body.is-preload #bg:before {
-  background-color: #000000;
+  background-color: rgb(107, 147, 207, 0.8);
 }
 
 /* Wrapper */
@@ -1521,11 +1527,13 @@ body.is-preload #bg:before {
 }
 
 #header nav ul li a:hover {
-  background-color: rgba(255, 255, 255, 0.075);
+  background-color: #ffffff13;
+  color: rgb(107, 147, 207);
+  text-decoration: none;
 }
 
 #header nav ul li a:active {
-  background-color: rgba(255, 255, 255, 0.175);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 #header nav.use-middle:after {
