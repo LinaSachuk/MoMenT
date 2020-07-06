@@ -779,7 +779,7 @@ input[type='radio'] + label:before {
 
 .image.left,
 .image.right {
-  max-width: 54%;
+  max-width: 40%;
 }
 
 .image.left img,
@@ -789,8 +789,7 @@ input[type='radio'] + label:before {
 
 .image.left {
   float: left;
-  padding: 0 1.5em 1em 0;
-  top: 0.25em;
+  margin: 1em;
 }
 
 .image.right {
@@ -817,6 +816,21 @@ input[type='radio'] + label:before {
 
 .image.main img {
   width: 100%;
+}
+
+/* SECO colors */
+
+hr {
+  color: #ec5e47;
+}
+
+h3,
+strong {
+  color: #f4b148;
+}
+
+article {
+  background-color: rgb(107, 147, 207, 0.8);
 }
 
 @media screen and (max-width: 736px) {
@@ -1671,7 +1685,7 @@ body.is-preload #header .content .inner {
   position: relative;
   width: 40rem;
   max-width: 100%;
-  background-color: rgba(27, 31, 34, 0.85);
+  background-color: rgb(107, 147, 207, 0.8);
   border-radius: 4px;
   opacity: 0;
 }
