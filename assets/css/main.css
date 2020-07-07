@@ -779,7 +779,7 @@ input[type='radio'] + label:before {
 
 .image.left,
 .image.right {
-  max-width: 50%;
+  max-width: 70%;
 }
 
 .image.left img,
@@ -789,13 +789,12 @@ input[type='radio'] + label:before {
 
 .image.left {
   float: left;
-  margin: 1em;
+  margin: 0 15% 5% 15%;
 }
 
 .image.right {
   float: right;
-  padding: 0 0 1em 1.5em;
-  top: 0.25em;
+  margin: 0 15% 5% 15%;
 }
 
 .image.fit {
