@@ -825,16 +825,18 @@ input[type='radio'] + label:before {
 }
 
 .map {
-  width: 100%;
+  width: 90%;
 }
 iframe {
   width: 100%;
+  padding: 2em 0 0 0;
 }
 
 h1 {
   text-shadow: 2px 2px 4px #6b93cf !important;
 }
 
+h2,
 h3,
 strong {
   color: #f4b148;
@@ -1518,6 +1520,7 @@ body.is-preload #bg:before {
 }
 
 #header nav ul li a {
+  background-color: rgba(255, 255, 255, 0.1);
   display: block;
   min-width: 7.5rem;
   height: 2.75rem;
@@ -1525,13 +1528,14 @@ body.is-preload #bg:before {
   padding: 0 1.25rem 0 1.45rem;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
-  font-size: 0.8rem;
+  font-size: 1rem;
+  font-weight: bold;
   border-bottom: 0;
 }
 
 #header nav ul li a:hover {
-  background-color: #ffffff13;
-  color: rgb(107, 147, 207);
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #f4b148;
   text-decoration: none;
 }
 
